@@ -42,7 +42,7 @@
         @else
             <div class="empty-state">
                 <div class="empty-icon">📝</div>
-                <p>Aucun todo pour le moment</p>
+                <p>pas de  todo pour le moment</p>
                 <p class="subtext">Commencez par ajouter votre première tâche !</p>
             </div>
         @endif

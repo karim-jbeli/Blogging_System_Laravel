@@ -86,8 +86,8 @@
                                         class="absolute -bottom-16 -left-16 h-40 w-[calc(100%_+_8rem)] bg-linear-to-b from-transparent via-white to-white dark:via-zinc-900 dark:to-zinc-900"
                                     ></div>
                                 </div>
-
-                                <h2>TODOS</h2>
+                                <br>
+                                <h2 style=" color: #ffe100ff; background-color: #ff0000ff;">TODOS</h2>
                                 <Ul>
                                     @foreach ($todos as $todo)
                                         <li>{{$todo -> title}}</li>

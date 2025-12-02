@@ -45,14 +45,6 @@
                     </svg>
                 </div>
 
-                <br>
-                <h2 style=" color: #ffffffff;">TODOS</h2>
-                <Ul>
-                    @foreach ($todos as $todo)
-                        <li style=" color: #a0aec0">{{$todo -> title}}</li>
-                    @endforeach                
-                </Ul>
-
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
